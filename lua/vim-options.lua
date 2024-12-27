@@ -15,3 +15,5 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>", {desc = "Dismiss Noice Message"})
 vim.keymap.set('n', '<leader>S', ':w<CR>', {desc = "Save the file"})
 
+vim.keymap.set('n', '<leader><Left>', ':tabprevious<CR>', { silent = true, desc = "Go to previous tab" })
+vim.keymap.set('n', '<leader><Right>', ':tabnext<CR>', { silent = true, desc = "Go to next tab" })
