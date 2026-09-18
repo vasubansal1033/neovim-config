@@ -12,8 +12,8 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set smarttab")
 
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>", {desc = "Dismiss Noice Message"})
-vim.keymap.set('n', '<leader>S', ':w<CR>', {desc = "Save the file"})
+vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>", {desc = "noice: dismiss message"})
+vim.keymap.set('n', '<leader>S', ':w<CR>', {desc = "core: save file"})
 
-vim.keymap.set('n', '<leader><Left>', ':tabprevious<CR>', { silent = true, desc = "Go to previous tab" })
-vim.keymap.set('n', '<leader><Right>', ':tabnext<CR>', { silent = true, desc = "Go to next tab" })
+vim.keymap.set('n', '<leader><Left>', ':tabprevious<CR>', { silent = true, desc = "core: previous tab" })
+vim.keymap.set('n', '<leader><Right>', ':tabnext<CR>', { silent = true, desc = "core: next tab" })
